@@ -1,0 +1,30 @@
+{
+  "name": "unsortedjamellknows",
+  "version": "1.0.1",
+  "description": "An unsorted binary search function for unnested arrays",
+  "main": "dist/unsortedBinarySearch.cjs.js",
+  "module": "dist/unsortedBinarySearch.esm.js",
+  "browser": "dist/unsortedBinarySearch.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "jamellknows",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "rollup": "^2.67.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
