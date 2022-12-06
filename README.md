@@ -1,4 +1,4 @@
-#Unsrted Binary Search for unnested arrays 
+#Unsorted Binary Search for unnested arrays 
 
 npm install unsortedjamellknows
 

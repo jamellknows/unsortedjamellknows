@@ -39,14 +39,11 @@ function unsortedBinarySearch(arr, x) {
   }
 
   if (arr[rand] === x) {
-    console.log(arr[rand]);
     return rand;
   }
 }
 
 function logsearchrecur(arr, x, index, rand) {
-  console.log(arr);
-
   if (arr[rand] < x || arr[rand] > x) {
     var larr = arr.slice(0, rand);
     var rarr = arr.slice(rand, arr.length - 1);
@@ -76,7 +73,6 @@ function logsearchrecur(arr, x, index, rand) {
   }
 
   if (arr[rand] === x) {
-    console.log(arr[rand]);
     return rand;
   }
 }

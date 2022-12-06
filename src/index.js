@@ -1,8 +1,7 @@
 
 export  function unsortedBinarySearch(arr, x){
    
-
-    let index;
+   let index;
    let rand = (arr.length -1) * (Math.random());
    rand = Math.round(rand);
 
@@ -31,14 +30,12 @@ export  function unsortedBinarySearch(arr, x){
             }
         }
         if(arr[rand] === x){
-                    console.log(arr[rand])
 
             return rand;
         }
 }
 
 function logsearchrecur(arr, x, index, rand){
-    console.log(arr);
 
     if(arr[rand] < x || arr[rand] > x){
         let larr = arr.slice(0, rand);
@@ -65,7 +62,6 @@ function logsearchrecur(arr, x, index, rand){
         }
     }
     if(arr[rand] === x){
-        console.log(arr[rand]);
 
         return rand;
     }
